@@ -1,0 +1,118 @@
+How did viewing a diff between the 2 
+documents help you to see the bug that
+was introduced?
+
+ 
+Having the two versions allows a good 
+comparison between the working code and 
+the new version. basically, no issues 
+caused by faulty memory come about.
+
+why couldn't you just use undo, though?
+
+Well, what if you'd done some really good
+ code after that? but you didn't knwo 
+wheyher that code had the bug in it.
+
+
+It isn't excessively difficult to find 
+ONE error in code, especially with a 
+debugger, or even by scaning over it with
+ your eyes. However, the comparison tool 
+(in linux: navigate to the containing 
+folder via cd Foldername/ and then write 
+'diff -u' followed by the 2 file names.*) 
+is far quicker and can find multiple 
+errors with little to no effort. reading
+ the output is a little annoying, though.
+
+In Linux: + before lines indicates they 
+have been added in the second file, 
+- indicates that they have been taken 
+away.
+
+
+*I've forgotten how to do it in Windows because I didn't think I'd have to pay attention. when you use the git tool it's the same as linux I think though? Jack says this is because git bash IS bash, which IS the Linux terminal language/system.
+
+
+
+
+other Qs:
+
+how could having access to the entire history of a file make you a more efficient programmer in the long term?
+
+the time savign is the obvious answer.
+
+otherwise, copying working code from an old version of the doc
+
+comparing former and current solutions to a problem to evaluate efficacy
+
+you have a record of your process as well - this would allow you to examine and make alterations to the WAY you do things.
+
+and, as expressed in a later question, it would make you far more likely to try new things and mix things up, making a more creative approach to programming. (giving you more tools in the long run to approach programming,hence, being speedier/quicker to find the appropriate solutin)
+-----
+
+
+manually commiting vs autosave?
+Manual committing has the main problem that it relies on human competance. lots of people simply forget to do a regualr save, let alone a git bash thing. Seriously, it seems like a pain. I don't know how fast it can be done yet, though. the main problem might be just thinking of a comment to put in (though they are very short).It'd be distracting
+
+so autosaving creates versions regularly and automatically, with no necessary work, thought or input.
+
+the issue with autosave is mainly that you could have a bunch of non-functioning versions, simply because it saved your version at the wrong point in time.
+
+so the benefit of choosing when to make a commit is that teh versions you do save are presumably functional, or at least represent main steps in the process, and are worth refering back to. 
+
+ooh ohhh also you can write a message on your version, giving you an idea of what you were thinking when you wrote it
+
+
+
+
+
+git log vs git diff: I don't know. I feel like git log might show you what different versions you've logged(and the comments and the other data, like unique indicators), and git diff would show you thedifference between them. git diff also requires the "serial codes" apparently, rather than the file names.
+
+ahhh added color is nice and reduces the illegibility issue.
+
+
+
+
+
+
+
+How might version control make you more confident to make changes that could break something?
+p obvious this one
+
+what do you want to try using git for? Github to build my programming resume, innit.
+
+
+aw sweet now I can tyoe directly into the command line. this is awesome. anyway I seem to remember that I was tryibng to answer a question...
+
+WOAH I JUST DELETED AN ENTIRE LINE!
+
+ANYWAY THE QUESTION:
+
+HOW CAN YOU USE THE COMMANDS GIT LOG AND GIT DIFF TO VIEW THE HISTORY OF FILES?
+
+Coops I deleted all my shit again
+
+these arrow keys are fuxking me up.
+
+anyhoo.
+
+git log- this lets you see and outline with all the commits you've made, along with a brief comment. Hence, a record of each version of the file, over its history, that you've bothered to commit. 
+
+
+
+
+um, along with a unique identifier as I wrote above. these can then be used with the command git diff to show the alterations between any two commits. so yeah. boss.
+
+
+
+let's continue in notepad for now.
+
+how might version control make you more likely to experiment:
+
+dude it sseems like you can basically jsut fuck around, and easily isolate your errors or return to any point you like. suuuuuuper good for experimenting.
+
+what do you want to try using git for?
+
+my JavaScript projects primarily.
