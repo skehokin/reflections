@@ -1,3 +1,10 @@
 What happens when you initialize a repository? Why do you need to do it?
 
 the git meta data appears, but no actual commits or tracking occurs. I guess it tells git that you want to start tracking somethign in the directory, but not exactly what. you have to tell git which files you'd like it to track after that.
+
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+mainly the opportunity to rethink your decisions
+
+the staging area is the area between the working directory and the repository.
