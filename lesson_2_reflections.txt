@@ -21,3 +21,11 @@ What are some situations when branches would be helpful in keeping your history 
 uh imagine mixing all the pages of 2 books together. branches are like, if you had 2 separate timelines split off,creating 2 different stories, and you were smart and kept them separate so you could track them, instead of reading 2 completely different stories (which unhelpfully have very similar occurences 
 and characters)
 branches are useful whenever you want to do anything different or test anything out
+
+how do diagrams help you visualise branch structure
+
+the connectiosn are particularly helpful. the connected commits are in chronological order, each with one logical change, as long as you've been commiting in a sensible fashion.
+
+this sort of question always confuses me. they help you visualise the branch structure by showing you a visual model of the branch structure, connecting those commits which are on teh same branch in chronological order, adn showing where each branch diverges fromteh master. I guess that is what it was asking??
+
+my instinct is to then go on to say "and I can then translate that into my head directly by way of my eyes" but I guess that's silly.
