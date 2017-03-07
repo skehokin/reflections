@@ -15,3 +15,9 @@ basically you can use git diff to check that you're only commiting a small amoun
 
 also maybe if you added something to the staging area but didn't commit it you'll want to check it to make sure that it's not the exactly same thing as you just did
 
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+uh imagine mixing all the pages of 2 books together. branches are like, if you had 2 separate timelines split off,creating 2 different stories, and you were smart and kept them separate so you could track them, instead of reading 2 completely different stories (which unhelpfully have very similar occurences 
+and characters)
+branches are useful whenever you want to do anything different or test anything out
