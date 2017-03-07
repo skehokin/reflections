@@ -8,3 +8,10 @@ How is the staging area different from the working directory and the repository?
 mainly the opportunity to rethink your decisions
 
 the staging area is the area between the working directory and the repository.
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+basically you can use git diff to check that you're only commiting a small amount of stuff.
+
+also maybe if you added something to the staging area but didn't commit it you'll want to check it to make sure that it's not the exactly same thing as you just did
+
