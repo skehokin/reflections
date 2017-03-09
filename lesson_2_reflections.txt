@@ -29,3 +29,13 @@ the connectiosn are particularly helpful. the connected commits are in chronolog
 this sort of question always confuses me. they help you visualise the branch structure by showing you a visual model of the branch structure, connecting those commits which are on teh same branch in chronological order, adn showing where each branch diverges fromteh master. I guess that is what it was asking??
 
 my instinct is to then go on to say "and I can then translate that into my head directly by way of my eyes" but I guess that's silly.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+
+the separate files become one set of files in the next commit, and they become one branch again. They become the master branch if the master was one of the branches to be merged. Everything taken away by a coder remains removed, everything added by a coder remains added. the previous commits in the separate branches are still accessible, and both branches are seen in the git log, in chronological order, regardless of the original branch.
+
+
+
+
+
