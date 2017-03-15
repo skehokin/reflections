@@ -35,6 +35,18 @@ What is the result of merging two branches together? Why do we represent it in t
 
 the separate files become one set of files in the next commit, and they become one branch again. They become the master branch if the master was one of the branches to be merged. Everything taken away by a coder remains removed, everything added by a coder remains added. the previous commits in the separate branches are still accessible, and both branches are seen in the git log, in chronological order, regardless of the original branch.
 
+the diagram shows that the 2 branches have become one, and that the previous commits on both branches are still accessible.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+auto-merging: pro - often easy and quick
+con - sometimes fails, also miiiight possibly merge in a way that you don't want
+
+manual merging - a difficult and tedious procedure often requiring discussion between multiple people but allows more control
+
+
+
+
 
 
 
