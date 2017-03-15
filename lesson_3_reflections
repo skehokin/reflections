@@ -6,3 +6,11 @@ c) possibly when you have large files and don't want to keep it all on your hard
 d) just as a back-up
 e) when you want to easily show other people
 f) as an extention of that last, when you are looking for other people to work on the same project
+
+Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?:
+
+mostly for the reasons mentioned above. other reasons: what if some of the files/updates are private, but your security is poor on the computer you're working on (say, at the library), or you're working on someone else's computer. you don't want others to be able to access that stuff.
+
+possibly (although unlikely) there are over-write issues.
+
+and, of course, if you're working on a project with others, you may well not NEED to have a number of the files that would get pulled if it happened automatically. 
