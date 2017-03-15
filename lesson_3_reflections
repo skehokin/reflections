@@ -7,28 +7,44 @@ d) just as a back-up
 e) when you want to easily show other people
 f) as an extention of that last, when you are looking for other people to work on the same project
 
-Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?:
+Why might you want to always pull changes manually rather than having Git
+automatically stay up-to-date with your remote repository?:
 
-mostly for the reasons mentioned above. other reasons: what if some of the files/updates are private, but your security is poor on the computer you're working on (say, at the library), or you're working on someone else's computer. you don't want others to be able to access that stuff.
+mostly for the reasons mentioned above. other reasons: what if some of the files/updates 
+are private, but your security is poor on the computer you're working on (say, at the library),
+or you're working on someone else's computer. you don't want others to be able to access that stuff.
 
 possibly (although unlikely) there are over-write issues.
 
-and, of course, if you're working on a project with others, you may well not NEED to have a number of the files that would get pulled if it happened automatically. 
+and, of course, if you're working on a project with others, you may well not NEED to have a
+number of the files that would get pulled if it happened automatically. 
 
 Describe the differences between forks, clones, and branches. When would you use one instead of another?
 
-a branch is a part of a repository, which labels a section of (related, chronologically ordered) commits so that you can access them later. 
+a branch is a part of a repository, which labels a section of (related, chronologically ordered)
+commits so that you can access them later. 
 
-in contrast, clones and forks both duplicate entire repositories. clones either copy repositories from a remote repository on Git Hub to your computer, or they can also copy a repository from one part of a hard drive to another.
+in contrast, clones and forks both duplicate entire repositories. clones either copy 
+repositories from a remote repository on Git Hub to your computer, or they can also 
+copy a repository from one part of a hard drive to another.
 
-Forking is a Git Hub specific process where the repository is copied from one person's profile to another's. 
+Forking is a Git Hub specific process where the repository is copied from one person's 
+profile to another's. 
 
-branching is used when different tasks need to be done to the same files in a commit, often while leaving a working version. So, when any experimental changes need to be made, when a new feature needs to be implemented, or when two people need to work on a single file at the same time. this can be done on different computers via cloning.
+branching is used when different tasks need to be done to the same files in a commit, 
+often while leaving a working version. So, when any experimental changes need to be made,
+when a new feature needs to be implemented, or when two people need to work on a single file
+at the same time. this can be done on different computers via cloning.
 
 Cloning is used to access a GitHub repository on a computer, by a user who has been given permission.
-tbh I have no idea what the use of cloning a repo onto the same computer would be. I don't even know how separate that would be. presumably they'd both be able to push to the same git hub repo, as well.
+tbh I have no idea what the use of cloning a repo onto the same computer would be. 
+I don't even know how separate that would be. presumably they'd both be able to push 
+to the same git hub repo, as well.
 
-Forking allows a GitHub user to make changes to another user's repository without altering the original. An obvious use of this is in open source projects, in which anyone can fork the repo and alter or improve the software themselves, and not affect the main project.
+Forking allows a GitHub user to make changes to another user's repository without 
+altering the original. An obvious use of this is in open source projects, in which
+anyone can fork the repo and alter or improve the software themselves, and not affect
+the main project.
 
 
 
