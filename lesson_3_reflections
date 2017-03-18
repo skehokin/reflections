@@ -48,7 +48,19 @@ the main project.
 
 What is the benefit of having a copy of the last known state of the remote stored locally?
 
-a)you can work on it/compare it/merge with it while offline
+you can work on it/compare it/merge with it while offline
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+tools I would use: dropbox and skype, with manual saving and merging.
+
+I don't have experience in any other VCS so I can't speculate on those.
+
+merging would be very difficult, to the extent that i might not use it at all.
+
+possibly if I had access to visual studio I would use that for version control - checking out instead of merging or branching.
+
+the main advantage of these systems is that they have an intuitive GUI, as opposed to the git bash system we're learning.  But communicating changes and  accessing the same files at the same time would be far more problematic. and also like sets of files might be a bit difficult to define.
 
 
 
