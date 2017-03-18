@@ -48,7 +48,7 @@ the main project.
 
 What is the benefit of having a copy of the last known state of the remote stored locally?
 
-you can work on it/compare it/merge with it while offline
+you can work on it/comow pare it/merge with it while offline
 
 How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
 
@@ -62,6 +62,10 @@ possibly if I had access to visual studio I would use that for version control -
 
 the main advantage of these systems is that they have an intuitive GUI, as opposed to the git bash system we're learning.  But communicating changes and  accessing the same files at the same time would be far more problematic. and also like sets of files might be a bit difficult to define.
 
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+
+I guess whenever you might need to ask other people about it before incorporating it into the master. of course there's also the usual reasons to make a new branch. Just using master is more straightforward, but merging shit can cause issues. communication is easier when you use the branch then pull-request method.
 
 
 
