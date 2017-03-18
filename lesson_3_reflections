@@ -46,6 +46,10 @@ altering the original. An obvious use of this is in open source projects, in whi
 anyone can fork the repo and alter or improve the software themselves, and not affect
 the main project.
 
+What is the benefit of having a copy of the last known state of the remote stored locally?
+
+a)you can work on it/compare it/merge with it while offline
+
 
 
 
